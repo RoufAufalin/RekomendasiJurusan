@@ -73,7 +73,7 @@ async function predict() {
 
   document.getElementById(
     "result"
-  ).innerText = `Prediksi kelas: ${predictedClass} (${predictedLabel})`
+  ).innerText = `Prediksi Jurusan: (${predictedLabel})`
 }
 
 document.getElementById("predictBtn").addEventListener("click", predict)
