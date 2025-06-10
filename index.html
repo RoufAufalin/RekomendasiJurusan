@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Inference TensorFlow.js</title>
+    <!-- Memanggil versi terbaru TensorFlow.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+    <!--  -->
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1>Demo Sistem Rekomendasi Jurusan</h1>
+    <textarea
+      id="inputText"
+      rows="4"
+      cols="50"
+      placeholder="Masukkan teks..."
+    ></textarea
+    ><br />
+    <button id="predictBtn">Prediksi</button>
+    <p>Hasil: <span id="result"></span></p>
+  </body>
+</html>
