@@ -18,8 +18,6 @@ Future Path hadir sebagai solusi dengan pendekatan berbasis **Artificial Intelli
 
 - 🔠 Input narasi minat & kepribadian siswa
 - 🤖 Rekomendasi jurusan dengan **Natural Language Processing (NLP)**
-- 📊 Visualisasi hasil klasifikasi jurusan
-- 💬 Feedback & saran lanjutan
 - 🌐 Antarmuka web modern, cepat, dan responsif
 
 ---
@@ -36,27 +34,31 @@ Model deep learning dikembangkan menggunakan:
 - **Output Layer (Softmax)**: Menghasilkan rekomendasi jurusan
 
 Model dilatih dengan:
+
 - **Loss**: `SparseCategoricalCrossentropy`
 - **Optimizer**: `Adam`
 - **Metric**: `Accuracy`
 
 ### 💻 Web Development Stack
 
-- **Frontend**:  
+- **Frontend**:
+
   - [Bootstrap 5.3](https://getbootstrap.com/)
   - [SASS](https://sass-lang.com/)
   - [Webpack](https://webpack.js.org/)
   - [Babel](https://babeljs.io/)
 
-- **Build Tools & Plugin**:  
-  - `HTMLWebpackPlugin` – Mengelola HTML otomatis  
-  - `MiniCssExtractPlugin` – Ekstrak CSS ke file terpisah  
+- **Build Tools & Plugin**:
+
+  - `HTMLWebpackPlugin` – Mengelola HTML otomatis
+  - `MiniCssExtractPlugin` – Ekstrak CSS ke file terpisah
   - `CopyWebpackPlugin` – Menyalin file statis
 
-- **Dev Server**:  
+- **Dev Server**:
+
   - `http-server` untuk local testing & debugging
 
-- **Backend**:  
+- **Backend**:
   - [Hapi.js](https://hapi.dev/) – Framework Node.js ringan untuk API
 
 ---
@@ -64,6 +66,8 @@ Model dilatih dengan:
 ## 🚀 Cara Menjalankan Proyek
 
 ### 1. Clone Repository
+
 ```bash
 git clone https://github.com/username/repo-future-path.git
 cd repo-future-path
+```
