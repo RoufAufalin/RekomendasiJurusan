@@ -39,27 +39,6 @@ Model dilatih dengan:
 - **Optimizer**: `Adam`
 - **Metric**: `Accuracy`
 
-### 💻 Web Development Stack
-
-- **Frontend**:
-
-  - [Bootstrap 5.3](https://getbootstrap.com/)
-  - [SASS](https://sass-lang.com/)
-  - [Webpack](https://webpack.js.org/)
-  - [Babel](https://babeljs.io/)
-
-- **Build Tools & Plugin**:
-
-  - `HTMLWebpackPlugin` – Mengelola HTML otomatis
-  - `MiniCssExtractPlugin` – Ekstrak CSS ke file terpisah
-  - `CopyWebpackPlugin` – Menyalin file statis
-
-- **Dev Server**:
-
-  - `http-server` untuk local testing & debugging
-
-- **Backend**:
-  - [Hapi.js](https://hapi.dev/) – Framework Node.js ringan untuk API
 
 ---
 
